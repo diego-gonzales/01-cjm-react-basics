@@ -1,5 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import RelojHooks from "./components/01-RelojHooks";
+import AjaxHooks from "./components/02-AjaxHooks";
 
 function App() {
   return (
@@ -17,6 +19,11 @@ function App() {
         >
           Learn React
         </a>
+
+        <section>
+          {/* <RelojHooks /> */}
+          <AjaxHooks />
+        </section>
       </header>
     </div>
   );

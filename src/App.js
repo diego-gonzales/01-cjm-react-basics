@@ -6,6 +6,7 @@ import CustomHooks from "./components/03-CustomHooks";
 import Referencias from "./components/04-Referencias";
 import Formularios from "./components/05-Formularios";
 import Formularios2 from "./components/05-Formularios2";
+import Estilos from "./components/06-Estilos";
 
 function App() {
   return (
@@ -30,7 +31,8 @@ function App() {
           {/* <CustomHooks /> */}
           {/* <Referencias /> */}
           {/* <Formularios /> */}
-          <Formularios2 />
+          {/* <Formularios2 /> */}
+          <Estilos />
         </section>
       </header>
     </div>

@@ -2,6 +2,8 @@ import logo from "./logo.svg";
 import "./App.css";
 import RelojHooks from "./components/01-RelojHooks";
 import AjaxHooks from "./components/02-AjaxHooks";
+import CustomHooks from "./components/03-CustomHooks";
+import Referencias from "./components/04-Referencias";
 
 function App() {
   return (
@@ -22,7 +24,9 @@ function App() {
 
         <section>
           {/* <RelojHooks /> */}
-          <AjaxHooks />
+          {/* <AjaxHooks /> */}
+          {/* <CustomHooks /> */}
+          <Referencias />
         </section>
       </header>
     </div>

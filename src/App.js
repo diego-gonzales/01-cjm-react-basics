@@ -4,6 +4,8 @@ import RelojHooks from "./components/01-RelojHooks";
 import AjaxHooks from "./components/02-AjaxHooks";
 import CustomHooks from "./components/03-CustomHooks";
 import Referencias from "./components/04-Referencias";
+import Formularios from "./components/05-Formularios";
+import Formularios2 from "./components/05-Formularios2";
 
 function App() {
   return (
@@ -26,7 +28,9 @@ function App() {
           {/* <RelojHooks /> */}
           {/* <AjaxHooks /> */}
           {/* <CustomHooks /> */}
-          <Referencias />
+          {/* <Referencias /> */}
+          {/* <Formularios /> */}
+          <Formularios2 />
         </section>
       </header>
     </div>

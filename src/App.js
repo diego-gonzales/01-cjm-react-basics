@@ -7,6 +7,7 @@ import Referencias from "./components/04-Referencias";
 import Formularios from "./components/05-Formularios";
 import Formularios2 from "./components/05-Formularios2";
 import Estilos from "./components/06-Estilos";
+import StyledComponents from "./components/07-StyledComponents";
 
 function App() {
   return (
@@ -32,7 +33,8 @@ function App() {
           {/* <Referencias /> */}
           {/* <Formularios /> */}
           {/* <Formularios2 /> */}
-          <Estilos />
+          {/* <Estilos /> */}
+          <StyledComponents />
         </section>
       </header>
     </div>
